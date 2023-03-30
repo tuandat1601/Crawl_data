@@ -2,8 +2,8 @@ from playwright.sync_api import sync_playwright
 import csv
 from datetime import datetime
 time = datetime.now().strftime("%y-%m-%d %H:%M:%S")
-email='6051071029@st.utc2.edu.vn'
-password = 'TuanDat160117@'
+email=''
+password = ''
 # jobs_info=['id','title','salary','skills','benefits','city','post_date','date_at']
 job_more_info=['title','skills','address','salary','type work','date post','company name','company text','type company','member company','day work','country company','OT','reason choice','job description','skills and experience','detail benefit']
 def crawl_itviec():
